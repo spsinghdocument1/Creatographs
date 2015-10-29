@@ -1,0 +1,83 @@
+div#slideshow {
+    position:relative;
+}
+div#tmpSlideshow {
+    position: relative;
+    height: 286px;
+    width: 430px;
+}
+div.tmpSlide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 430px;
+    height: 286px;
+    display: none;
+}
+div.tmpSlide img {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    width: 430px;
+    border: 1px solid rgb(244, 244, 244);
+}
+div#tmpSlideshowControls {
+    background-color:#555;
+    position: absolute;
+    top:288px;
+    left: 0px;
+    width: 432px;
+    height:20px;
+}
+div.tmpSlideshowControl {
+    float: left;
+    margin: 5px 3px;
+    background: url(../images/boxwhite.gif) no-repeat;
+    width:13px;
+    height:11px;
+    color: #554d31;
+    font: 4px Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+div.tmpSlideshowControl span {
+    vertical-align: middle;
+    padding-bottom:2px;
+}
+div.tmpSlideshowControlOn {
+   background-image: url(../images/FeatureOver.png);
+}
+div.tmpSlideshowControlActive {
+   background-image: url(../images/boxblue.gif);
+}
+div.tmpSlideCopy {
+    text-align:left;
+    position: absolute;
+    left: 340px;
+    top: 0px;
+    width: 200px;
+}
+div#tmpSlideshow h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font: 16px Arial, sans-serif;
+    font-weight:bold;
+    margin: 10px 0 0 0;
+}
+div.tmpSlideCopy p {
+    font-family: Arial, sans-serif;
+    margin:5px 0 0 0px;
+}
+div.Pause {
+border:none;
+float:left;
+margin:4px 3px 0 3px;
+background:none;
+}
+
+input.Pause {
+background:url(images/butpause.gif);
+}
+
+.PauseActive {
+border:1px solid green;
+}

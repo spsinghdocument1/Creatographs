@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    My ASP.NET Application
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Admin/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About">
+                            <asp:MenuItem NavigateUrl="~/Admin/add_about.aspx" Text="Add" Value="Add">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/show_about.aspx" Text="Show" Value="Show">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/Image_Gallery.aspx">
+                            <asp:MenuItem NavigateUrl="~/Admin/AddImage.aspx" Text="Add Image" 
+                                Value="Add Image">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/ShowImage.aspx" Text="Show" Value="Show">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/ContactUs.aspx">
+                            <asp:MenuItem NavigateUrl="~/Admin/Show_con.aspx" Text="Show Contact Detail" 
+                                Value="Show">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Class" Value="Class">
+                            <asp:MenuItem NavigateUrl="~/Admin/Add_Class.aspx" Text="Add" Value="Add">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/Show_Class.aspx" Text="Show" Value="Show">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Advertisement" Value="Advertisement" 
+                            NavigateUrl="~/index.html">
+                            <asp:MenuItem NavigateUrl="~/Admin/add_adver.aspx" Text="Add" Value="Add">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/show_adver.aspx" Text="Show" Value="Show">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Message" Value="Message" NavigateUrl="~/index.html">
+                            <asp:MenuItem NavigateUrl="~/Admin/Message.aspx" Text="Add" Value="Add">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/TimeTable.aspx" Text="Time Table" 
+                            Value="Time Table">
+                            <asp:MenuItem NavigateUrl="~/Admin/Add_TT.aspx" Text="Add New" Value="Add New">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/Show_TT.aspx" Text="Show" Value="Show">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Upcoming Class" Value="Upcoming Class">
+                            <asp:MenuItem NavigateUrl="~/Admin/Upcl_add.aspx" Text="Add New" 
+                                Value="Add New"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/Upcl_show.aspx" Text="Show" Value="Show">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

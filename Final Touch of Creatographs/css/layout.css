@@ -1,0 +1,400 @@
+/* CSS Document */
+
+html{height: 100%; padding:0px}
+
+body{ margin:0px auto; background:url(../images/bg.jpg) #131313 repeat-x 50% 0px; font-family:Arial; font-size:12px; color:#FFFFFF; word-spacing: normal;height: 100%; padding:0px}
+
+img{ border:none}
+
+p{margin:0px; padding:0px}
+
+p.space{margin:3px 0px 0px 0px;}
+
+p.space1{margin:13px 0px 0px 0px; font-size:11px}
+
+p.font{margin:0px 0px 0px 0px; font-size:18px; padding:0px}
+
+/*p.font1{margin:0px 20px 0px 0px; font-size:12px; padding:0px; font-family:Tahoma}*/
+
+p.font2{margin:0px 30px 0px 25px; font-size:12px; padding:0px; font-family:Arial; letter-spacing:1px}
+
+p.font3{margin:0px 30px 0px 25px; font-size:16px; padding-bottom:5px; font-family:Arial; letter-spacing:1px}
+
+p.font4{margin:0px 10px 0px 25px; font-size:14px; padding-bottom:5px; font-family:Arial; }
+
+p.font5{margin:0px 10px 0px 25px; font-size:12px; padding-bottom:5px; font-family:Arial; }
+
+p.font6{margin:0px 10px 0px 25px; font-size:20px; padding-bottom:5px; font-family:Arial; }
+
+.red1{margin:3px 0px 0px 0px; font-size:18px; color:#CC0000}
+
+.green{margin:3px 0px 0px 0px; color:#beff00}
+
+a.blue{margin:3px 0px 0px 0px; font-size:18px; color:#00bbff; text-decoration:none}
+a.blue:hover{margin:3px 0px 0px 0px; font-size:18px; color:#939191; text-decoration:underline}
+
+h3{margin:0px 25px 0px 25px; font-size:18px; padding:0px; font-family:Arial; letter-spacing:1px}
+
+
+
+/*****************************FOOTER******************************/
+
+/*#footer {position: relative;
+	margin-top: -197px; /* negative value of footer height */
+	/*height: 197px;
+	clear:both; width:100% ;background:url(../images/footer.gif) #252525 repeat-x center top;} */
+
+.footer-content{margin: 20px 0px 0px 25px; float: left; color:#939191}
+	
+.footer-content a{ padding:0px 3px 0px 3px; text-decoration:none; color:#4cc104;}
+.footer-content a:hover{ padding:0px 3px 0px 3px; text-decoration:none; color:#878787}
+
+.footer-link{ width:100%; margin:0px auto; background:#252525; position: relative; height:120px}
+ 
+
+
+
+/************************FOOTER END***********************************/
+
+a.red{ padding:0px 3px 0px 3px; text-decoration:none; color:#CC0000;}
+a.red:hover{ padding:0px 3px 0px 3px; text-decoration:underline; color:#CC0000}
+
+a.link{color:#131313;}
+a.link:hover{color:#131313}
+
+a.green1{ padding:0px 3px 0px 3px; text-decoration:none; color:#4cc104;}
+a.green1:hover{ padding:0px 3px 0px 3px; text-decoration:none; color:#878787}
+
+H1{font-family:Arial; font-size:30px; color:#f3781e; margin:0px; padding:0px}
+
+H2{font-family:Arial; font-size:16px; color:#f3781e; margin:0px; padding:0px}
+
+.outer{ width:1000px; margin:0px auto;min-height: 100%; }
+
+/*#main {overflow:auto;
+	padding-bottom: 197px;} */ /* must be same height as the footer */
+
+.clr{ width:100%; clear:both}
+
+.nav{margin:0px 0px 40px 0px}
+.nav a{text-decoration:none; margin:0px; padding:0px}
+.nav a:hover{text-decoration:none; margin:0px; padding:0px;}
+.nav a:visited{text-decoration:none; margin:0px; padding:0px; color:#131313}
+
+#home{ }
+#home a{ background:url(../images/home.png) no-repeat; float:left}
+#home a:hover{ background:url(../images/home-r.png) no-repeat; float:left}
+#home a.still{ background:url(../images/home-r.png) no-repeat; float:left}
+
+#portfolio{ }
+#portfolio a{ background:url(../images/portfolio.png) no-repeat; float:left}
+#portfolio a:hover{ background:url(../images/portfolio-r.png) no-repeat; float:left}
+#portfolio a.still{ background:url(../images/portfolio-r.png) no-repeat; float:left}
+
+#services{ }
+#services a{ background:url(../images/services.png) no-repeat; float:left}
+#services a:hover{ background:url(../images/services-r.png) no-repeat; float:left}
+#services a.still{ background:url(../images/services-r.png) no-repeat; float:left}
+
+#contact{ }
+#contact a{ background:url(../images/contact.png) no-repeat; float:left}
+#contact a:hover{ background:url(../images/contact-r.png) no-repeat; float:left}
+#contact a.still{ background:url(../images/contact-r.png) no-repeat; float:left}
+
+#about-us{ }
+#about-us a{ background:url(../images/about-us.png) no-repeat; float:left}
+#about-us a:hover{ background:url(../images/about-us-r.png) no-repeat; float:left}
+#about-us a.still{ background:url(../images/about-us-r.png) no-repeat; float:left}
+
+#blog{ }
+#blog a{ background:url(../images/blog.png) no-repeat; float:left}
+#blog a:hover{ background:url(../images/blog-r.png) no-repeat; float:left}
+#blog a.still{ background:url(../images/blog-r.png) no-repeat; float:left}
+
+#sitemap{ }
+#sitemap a{ background:url(../images/sitemap.png) no-repeat; float:left}
+#sitemap a:hover{ background:url(../images/sitemap-r.png) no-repeat; float:left}
+#sitemap a.still{ background:url(../images/sitemap-r.png) no-repeat; float:left}
+
+#stay{ }
+#stay a{ background:url(../images/stay.png) no-repeat; float:left}
+#stay a:hover{ background:url(../images/stay-r.png) no-repeat; float:left}
+
+#bird{ }
+#bird a{ background:url(../images/twitter-bird.png) no-repeat; float:left}
+#bird a:hover{ background:url(../images/twitter-bird-r.png) no-repeat; float:left}
+
+#hiring{ }
+#hiring a{ background:url(../images/hiring.PNG) no-repeat; float:left}
+#hiring a:hover{ background:url(../images/hiring-r.PNG) no-repeat; float:left}
+
+#twitter{ }
+#twitter a{ background:url(../images/twitter-1.jpg) no-repeat; float:left}
+#twitter a:hover{ background:url(../images/twitter-1-r.jpg) no-repeat; float:left}
+
+#facebook{ }
+#facebook a{ background:url(../images/facebook-1.jpg) no-repeat; float:left}
+#facebook a:hover{ background:url(../images/facebook-1-r.jpg) no-repeat; float:left}
+
+/*#send{ }
+#send a{ background:url(../images/send.PNG) no-repeat;}
+#send a:hover{ background:url(../images/send-r.PNG) no-repeat;}*/
+
+#xhtml{ }
+#xhtml a{ background:url(../images/w3c-xhtml.jpg) no-repeat; float:left}
+#xhtml a:hover{ background:url(../images/w3c-xhtml-r.jpg) no-repeat; float:left}
+
+#css{ }
+#css a{ background:url(../images/w3c-css.jpg) no-repeat; float:left}
+#css a:hover{ background:url(../images/w3c-css-r.jpg) no-repeat; float:left}
+
+.img2{}
+.img2 img{ margin:0px 41px 0px 0px; }
+
+.img3{}
+.img3 img{ margin:0px 0px 0px 10px; }
+
+.input1{ font-size:12px; width:220px; border:none; background:#4c4c4c; height:25px; color:#FFFFFF}
+
+.input2{ font-size:12px; width:220px; border:none; background:#4c4c4c;color:#FFFFFF}
+
+.input3{ font-size:16px;color:#FFFFFF}
+
+.input4{ font-size:12px; width:220px; border:none; background:#fff; height:25px; color:#000}
+
+.input6{ font-size:12px; width:100px; border:none; background:#fff; height:25px; color:#000;}
+
+.input5{ font-size:12px; width:220px; border:none; background:#fff;color:#000}
+
+.input7{ font-size:12px; width:100px; border:none; background:#4c4c4c; height:25px; color:#FFFFFF}
+
+a.home{ font-size:12px;color:#4cc104; text-decoration:none}
+a.home:hover{ font-size:12px;color:#878787;}
+
+.font1{ font-size:20px}
+
+.span1{ font-size:18px; color:#4cc104; font-weight:bold}
+
+.span3{ font-size:24px; color:white; font-weight:bold}
+
+a.span2{color:#00bbff; font-weight:bold; text-decoration:none;}
+a.span2:hover{color:#878787; font-weight:bold; text-decoration:underline}
+
+a.span3{color:#00bbff; text-decoration:none;}
+a.span3:hover{color:#878787; text-decoration:underline}
+
+.span4{ font-size:12px; color:#00bbff; font-weight:bold}
+
+.span5{ font-size:14px; color:#00bbff; font-weight:bold}
+
+.box{ width:634px; background:url(../images/box-rpt.PNG) repeat-y; margin-left:25px; float:left}
+
+.subbox1{ width:230px; background: url("../images/subbox2-rpt.PNG") repeat-y; margin-left:45px; float:left}
+
+.subbox{ width:270px; background: url("../images/subbox1-rpt.PNG") repeat-y; margin-left:25px; float:left}
+
+.subchild{ margin-left:25px;}
+
+.navchild1{ margin-left:25px;display:none;}
+.navchild2{ margin-left:25px;display:none;}
+.navchild3{ margin-left:25px;display:none;}
+.navchild4{ margin-left:25px;display:none;}
+.navchild5{ margin-left:25px;display:none;}
+li .navactive{ background:url(../images/bullet-down.gif) no-repeat 15px 4px; }
+
+#error{margin-left:50px; width: 350px; padding: 10px; font: 14px arial;color: #fff;background-color: #bd0808;display: none; }
+
+#errors{ width: 350px; padding: 10px; font: 14px arial;color: #fff;background-color: #bd0808;display: none; }
+
+#error-msg{ width: 250px; padding: 10px; font: 14px arial;color: #fff;background-color: #bd0808;margin-top:10px;display:none;float:left; }
+
+.done{  width: 400px;padding: 10px; font: 14px arial; color: #fff; background-color: #10853f; display: none; }
+.done1{ 
+	display: none;	
+        margin:0 20px;
+        padding: 20px 30px;	
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	background: rgba(248,248,248,.9);
+	font-size: 25px;
+	font-weight: 300;
+	color: #232323; }
+#back{color:red;}
+
+#loading{
+	left:10px;
+	position:relative;
+	
+	visibility:hidden;
+}
+.subchild1{ margin-left:25px;display:none;}
+
+.bullet{}
+.bullet ul{ text-decoration:none; margin:0px; padding:0px}
+
+
+.bullet ul li { list-style:none; margin:0px 0px 0px 30px; padding:0px 0px 0px 0px; text-decoration:none; background:url(../images/bullet.gif) no-repeat 15px 8px}
+
+.bullet1 ul{ text-decoration:none; margin:0px; padding:0px}
+.bullet1 ul li { list-style:none; margin:0px 0px 0px 10px; padding:0px 0px 0px 0px; text-decoration:none; background:url(../images/bullet.gif) no-repeat 15px 4px}
+
+/*-----------------------------------------------------------------*/
+
+.container { 
+	width: 100%;
+	margin: 0 auto;
+	
+	padding: 0;
+	position: relative;
+	z-index: 1;
+	 background:#292929}
+
+/*  BOTTOM EXPAND STYLES 
+---------------------------------------------------------------------*/
+
+	 
+	
+	#aboutBox { 
+		position: relative;
+		z-index: 999;
+		display: block;
+		
+		}
+	
+	#aboutBox #aboutButton { 
+		text-align: right;
+		width: 100%;
+		height: 20px;
+		display: block;
+		background:#272727;
+		}
+
+	#aboutBox #aboutContent { 
+		width: 900px;
+	  /*	height: 160px;*/
+		height: auto;
+		padding-bottom: 30px;
+		display: block;
+		margin:0px 0px 0px 25px
+		}
+
+	/*#aboutBox #aboutContent .row { 
+		width: 900px;
+		/*height: 160px;*/
+		/*height: auto;
+		display: block;
+		
+		}*/
+		
+	 #aboutBox .lColumn { width: 420px; float:left;margin:0px 20px 0px 0px;}
+	 #aboutBox .rColumn { width: 420px;float:right;margin:0px 0px 0px 20px;}
+
+	#aboutBox #aboutButton .expand { 
+		height: 20px; 
+		width: 27px;
+		display: block;
+		outline: none;
+		float: right;
+		margin:0px 70px 0px 0px;
+		}
+
+/*.lColumn { float: left;	margin:0px 0px 0px 25px; width: 420px;}
+
+.rColumn { float: right; margin:0px 0px 0px 25px; width: 420px;}
+
+
+/*********************************************************************************************/
+
+.footer{width:100%; margin:0px auto; background:url(../images/footer.gif) #272727 repeat-x center top; position: relative;
+ height:90px}
+ 
+a.box-link{padding:0px 3px 0px 3px; text-decoration:none; color:#4cc104;}
+a.box-link:hover{ padding:0px 3px 0px 3px; text-decoration:none; color:#878787}
+
+
+
+/*****************************************************according slider***********************************************/
+
+#accordion2 {
+	width:100%;
+	border-top:none; margin:0px
+}
+.accordion2 {
+	width:100%;
+	font-size:12px; margin:0px;
+	
+	color:#fff; 
+}
+.accordion2 dt {
+	width:580px;
+	padding:5px 0px 12px 5px;
+	cursor:pointer;
+	margin:25px 0px 10px 25px;
+	font-size:18px;
+	font-weight:bold;
+	
+	color:#00bbff;
+	border-bottom:1px dashed #999 ;
+	background:url(../images/plus-icon.gif) 570px 10px no-repeat;
+}
+.accordion2 dt:hover {
+	color:#fff;
+}
+.accordion2 .open {
+	color:#fff;
+	background:url(../images/minus-icon.gif) 570px 10px no-repeat; margin:0px 25px 0px 25px;
+}
+.accordion2 dd {
+	overflow:hidden;
+	
+}
+.accordion2 div {
+	display:block;
+	width:600px;
+	border-top:none; margin:0px; padding:0px
+}
+
+
+.accordion2 p{margin:0px 30px 0px 0px; font-size:12px; padding:0px; font-family:Arial; letter-spacing:1px}
+
+.accordion2 ul{ text-decoration:none; margin:0px; padding:0px}
+
+.accordion2 ul li { list-style:none; margin:0px 0px 0px 15px; padding:0px; background:url(../images/bullet.gif) no-repeat 0px 4px;}
+
+
+/******************************************************according ends************************************************/
+
+/**************************************FADE-HOVER STARTS*************************************************************/
+
+
+div.fadehover {
+	position: relative;
+	}
+ 
+img.a {
+	position: absolute;
+	
+	top: 0px;
+        z-index: 10;
+	}
+ 
+img.b {
+	position: absolute;
+	
+	top: 0;
+	}
+
+img.c {
+	position: absolute;
+	left:0px;
+	top: 0px;
+        z-index: 10;
+	}
+ 
+img.d {
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+	
+	
+/***********************************************FADE-HOVER ENDS***********************************************/

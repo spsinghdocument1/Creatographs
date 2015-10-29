@@ -1,0 +1,252 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Index.master.cs" Inherits="Index" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Snr Infocom</title>
+<meta charset="iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="layout/styles/main.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/mediaqueries.css" rel="stylesheet" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link href="layout/styles/ie/ie8.css" rel="stylesheet" type="text/css" media="all">
+<script src="layout/scripts/ie/css3-mediaqueries.min.js"></script>
+<script src="layout/scripts/ie/html5shiv.min.js"></script>
+<![endif]-->
+<!-- Slider -->
+<link href="layout/scripts/responsiveslides.js-v1.53/responsiveslides.css" rel="stylesheet" type="text/css" media="all">
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper row1">
+  <header id="header" class="full_width clear">
+    <hgroup>
+      <h1><a href="index.html">SnR Infocom</a></h1>
+      <h2>Spereading smile..</h2>
+    </hgroup>
+    <div id="header-contact">
+      <ul class="list none">
+        <li><span class="icon-envelope"></span> <a href="#">info@snrinfocm.com</a></li>
+        <li><span class="icon-phone"></span> +91 120 1234567890</li>
+      </ul>
+    </div>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <nav id="topnav">
+    <ul class="clear">
+      <li class="active"><a href="index.html" title="Home">Home</a></li>
+      <li><a class="drop" href="#" title="About Us">About Us</a>
+        <ul>
+       
+          <li><a href="history.aspx" title="Team">History</a></li>
+          <li><a href="finance.aspx" title="History">Finance</a></li>
+          
+          <!--<li class="last-child"><a href="pages/faq.html" title="FAQ">FAQ</a></li>-->
+        </ul>
+      </li>
+
+      <li><a class="drop" href="#" title="Elements">our Projects</a>
+        <ul>
+          <li><a href="photo.aspx" title="Running Project">Children</a></li>
+          <li><a href="women.aspx" title="Done Project">women</a></li>
+            <li><a href="oldage.aspx" title="Done Project">old age</a></li>
+              <li><a href="healhprogram.aspx" title="Done Project">health program</a></li>
+          
+          <!--<li class="last-child"><a href="elements/pricing-tables.html" title="Pricing Tables">Pricing Tables</a></li>-->
+        </ul>
+      </li>
+      <li><a class="drop" href="#" title="Get Involved">Get Involved</a>
+        <ul>
+         
+          <li><a href="portfolio-layouts/portfolio-overview-2columns.html" title="Become a Sponser">Become a Sponser</a></li>
+          <li><a href="portfolio-layouts/portfolio-overview-2columns-leftsidebar.html" title="Volunteer">Volunteer</a></li>
+          <li><a href="portfolio-layouts/portfolio-overview-2columns-rightsidebar.html" title="Shop with purpose">Shop with purpose</a></li>
+          <li><a href="portfolio-layouts/portfolio-overview-2columns-bothsidebars.html" title="Work with us">Work with us</a></li>
+          
+        </ul>
+      </li>
+      <li><a class="drop" href="#" title="Gallery Layouts">Gallery</a>
+        <ul>
+          <li><a href="photo.aspx" title="Photo Gallery">Photo Gallery</a></li>
+          <li><a href="vido.aspx" title="Video Gallery">Video Gallery</a></li>
+          
+          <!--<li class="last-child"><a href="gallery-layouts/gallery-5columns.html" title="5 Column Grid">5 Column Grid</a></li>-->
+        </ul>
+      </li>
+    
+      <%--<li><a href="contacts.aspx" title="Link Text">Contact Us</a>
+      <ul>
+          <li><a href="gallery-layouts/gallery-full-width-content.html" title="Office Address">Office Address</a></li>
+          <li><a href="gallery-layouts/gallery-2columns.html" title="Donor Care">Donor Care</a></li>
+          <li><a href="gallery-layouts/gallery-2columns.html" title="Media queries">Media queries</a></li>
+      </ul>
+      </li>--%>
+      <li class="active"><a href="contacts.aspx" title="Home">Contact Us</a></li>
+      <li class="active"><a href="joinus.aspx" title="Home">Join Us</a></li>
+        <li><a class="drop" href="#" title="Gallery Layouts">Donations</a>
+        <ul>
+          <li><a href="offlinedonations.aspx" title="Photo Gallery">Offline Donation</a></li>
+          <li><a href="online.aspx" title="Video Gallery">Online Donations</a></li>
+          
+          <!--<li class="last-child"><a href="gallery-layouts/gallery-5columns.html" title="5 Column Grid">5 Column Grid</a></li>-->
+        </ul>
+      </li>
+      <!--<li class="last-child"><a href="#" title="A Very Long Link Text">A Very Long Link Text</a></li>-->
+    </ul>
+  </nav>
+</div>
+<!-- content -->
+
+
+<div class="wrapper row3">
+  <div id="container">
+    <!-- ################################################################################################ -->
+    <div id="homepage" class="clear">
+      <div class="three_quarter first">
+        <!-- #### -->
+        <section class="main_slider">
+          <h1><a href="#">Vestibulum adipiscing erat sit amet justo</a></h1>
+          <div class="rslides_container clear">
+            <ul class="rslides clear" id="rslides">
+              <li><img src="images/demo/slider/1.jpg" alt=""></li>
+              <li><img src="images/demo/slider/2.jpg" alt=""></li>
+              <li><img src="images/demo/slider/3.jpg" alt=""></li>
+            </ul>
+          </div>
+        </section>
+
+
+
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+
+
+    </div>
+      <div class="one_quarter">
+        <article class="push20">
+          <h2 class="font-medium"><a href="#">Headline Text</a></h2>
+          <div class="push30"><img src="images/demo/video.gif" alt=""></div>
+          <p>Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem. Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
+        </article>
+        </br>
+        <h2 class="font-medium"><a href="#">Headline Text</a></h2>
+        <marquee behavior="scroll" direction="up" height="250" scrolldelay="200" onmouseover="this.stop();" onmouseout="this.start();" loop="repeat" bgcolor="#E0E0E0 ">
+        <ul class="list arrow">
+          <li><a href="#">Etiam id sapien vitae neque iaculis facilisis.</a></li>
+          <li><a href="#">Maecenas cursus lectus in purus vehicula dapibus.</a></li>
+          <li><a href="#">Etiam fermentum nulla enim, id lobortis est.</a></li>
+          <li><a href="#">Sed aliquet semper eros, ut gravida nisl malesuada quis.</a></li>
+          <li><a href="#">Nullam tempus dictum neque, et vestibulum quam tincidunt a.</a></li>
+          <li><a href="#">Cras ut sapien ut augue vulputate ultricies iaculis sed justo.</a></li>
+        </ul>
+        </marquee>
+        <article class="push20">
+          <h2 class="font-medium"><a href="#">Headline Text</a></h2>
+          <div class="push30"><img src="images/demo/1200x400.gif" alt=""></div>
+          <p>Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem.</p>
+        </article>
+        
+      </div>
+    </div>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row2">
+  <div id="footer" class="clear">
+    <div class="one_quarter first">
+      <h2 class="footer_title">Footer Navigation</h2>
+      <nav class="footer_nav">
+        <ul class="nospace">
+          <li><a href="#">Home Page</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Meet the Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <%--<li><a href="#">Contact Us</a></li>
+          <li><a href="#">Gallery</a></li>--%>
+          <%--<li><a href="#">Portfolio</a></li>--%>
+          <li><a href="#">Shop For Purpose</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="one_quarter">
+      <h2 class="footer_title">Latest Gallery</h2>
+      <ul id="ft_gallery" class="nospace spacing clear">
+        <li class="one_third first"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>
+        <li class="one_third first"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>
+        <%--<li class="one_third first"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="images/demo/80x80.gif" alt=""></a></li>--%>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h2 class="footer_title">From Twitter</h2>
+      <div class="tweet-container">
+        <ul class="list none">
+          <li><strong>@<a href="#">name</a></strong> <span class="tweet_text">RT <span class="at">@</span><a href="#">name</a> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.</span> <span class="tweet_time"><a href="#">about 9 hours ago</a></span></li>
+          <li><strong>@<a href="#">name</a></strong> <span class="tweet_text">RT <span class="at">@</span><a href="#">name</a> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.</span> <span class="tweet_time"><a href="#">about 9 hours ago</a></span></li>
+          <%--<li><strong>@<a href="#">name</a></strong> <span class="tweet_text">RT <span class="at">@</span><a href="#">name</a> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.</span> <span class="tweet_time"><a href="#">about 9 hours ago</a></span></li>
+          <li><strong>@<a href="#">name</a></strong> <span class="tweet_text">RT <span class="at">@</span><a href="#">name</a> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.</span> <span class="tweet_time"><a href="#">about 9 hours ago</a></span></li>--%>
+        </ul>
+      </div>
+    </div>
+    <div class="one_quarter">
+      <h2 class="footer_title">Contact Us</h2>
+      <form class="rnd5" action="#" method="post">
+        <div class="form-input clear">
+          <label for="ft_author">Name <span class="required">*</span><br>
+            <input type="text" name="ft_author" id="ft_author" value="" size="22">
+          </label>
+          <label for="ft_email">Email <span class="required">*</span><br>
+            <input type="text" name="ft_email" id="ft_email" value="" size="22">
+          </label>
+        </div>
+        <%--<div class="form-message">
+          <textarea name="ft_message" id="ft_message" cols="25" rows="10"></textarea>
+        </div>--%>
+        <p>
+          <input type="submit" value="Submit" class="button small orange">
+          &nbsp;
+          <input type="reset" value="Reset" class="button small grey">
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="wrapper row4">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2013 - All Rights Reserved - <a href="#">snr</a></p>
+    <p class="fl_right">Template by <a href="http://www.snrinfocom.com/" title="snrinfocom">snr infocom</a></p>
+  </div>
+</div>
+<!-- Scripts -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
+<script>    window.jQuery || document.write('<script src="layout/scripts/jquery-latest.min.js"><\/script>\
+<script src="layout/scripts/jquery-ui.min.js"><\/script>')</script>
+<script>    jQuery(document).ready(function ($) { $('img').removeAttr('width height'); });</script>
+<script src="layout/scripts/responsiveslides.js-v1.53/responsiveslides.min.js"></script>
+<script src="layout/scripts/jquery-mobilemenu.min.js"></script>
+<script src="layout/scripts/custom.js"></script>
+
+
+    </form>
+</body>
+</html>
